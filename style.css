@@ -24,7 +24,25 @@ li a{
 
 /*MAIN*/
 
-.primeira-imagem img{
+.image-container {
     width: 100%;
-    
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.image-container .overlay{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none   ;
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    color: white;
 }
