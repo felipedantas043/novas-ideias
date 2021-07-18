@@ -13,15 +13,24 @@
         <h2>gere senhas fortes com apenas alguns cliques!</h2>
     </header>
     <main>
+        <div id="res">
+
+        </div>
         <div>
-            <input type="radio" name="escolha_senha" id="senha_aleatoria">
-            <label for="senha_aleatoria">gerar senha aleatória</label><br>
-            <input type="radio" name="escolha_senha" id="senha_personalizada">
-            <label for="senha_personalizada">Gerar senha com um tamanho específico</label>
+            <input type="button" value="Gerar senha" onclick="gerar()">
         </div>
     </main>
     <footer>
 
     </footer>
+    <script>
+        let res = document.getElementById('res')
+        let alfabeto = "abcdefghijklmnopqrstuvwxyz"
+        let simbolos = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+        let numeros = "0123456789"
+        function gerar() {
+            //aqui que a mágica vai acontecer!
+        }
+    </script>
 </body>
 </html>
