@@ -76,7 +76,7 @@ label:hover {
 }
 
 #ck3:checked + label{
-    background-image: url(img/her.jpg);
+    background-image: url(img/her.JPG);
     background-size: 100%;
     font-size: 0;
     transition: all 1s ease;
